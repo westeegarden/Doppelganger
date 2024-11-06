@@ -17,9 +17,6 @@ namespace BinaryData
     extern const char*   HT40_Overdrive_json;
     const int            HT40_Overdrive_jsonSize = 42499;
 
-    extern const char*   npi_background_jpg;
-    const int            npi_background_jpgSize = 47900;
-
     extern const char*   TS9_json;
     const int            TS9_jsonSize = 42593;
 
@@ -27,7 +24,7 @@ namespace BinaryData
     const int            TS9_FullD_jsonSize = 40673;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 6;
+    const int namedResourceListSize = 5;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];

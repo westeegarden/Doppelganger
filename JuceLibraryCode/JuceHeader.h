@@ -49,7 +49,7 @@
 #if ! JUCE_DONT_DECLARE_PROJECTINFO
 namespace ProjectInfo
 {
-    const char* const  projectName    = "NeuralPi";
+    const char* const  projectName    = "Doppelganger";
     const char* const  companyName    = "GuitarML";
     const char* const  versionString  = "1.3.0";
     const int          versionNumber  = 0x10300;

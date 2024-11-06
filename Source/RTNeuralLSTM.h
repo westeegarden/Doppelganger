@@ -1,6 +1,6 @@
 #pragma once
 
-#include <RTNeural/RTNeural.h>
+#include <../modules/RTNeural/RTNeural/RTNeural.h>
 
 class RT_LSTM
 {

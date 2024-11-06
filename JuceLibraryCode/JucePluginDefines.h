@@ -41,19 +41,19 @@
  #define JucePlugin_Enable_ARA             0
 #endif
 #ifndef  JucePlugin_Name
- #define JucePlugin_Name                   "NeuralPi"
+ #define JucePlugin_Name                   "Doppelganger"
 #endif
 #ifndef  JucePlugin_Desc
- #define JucePlugin_Desc                   "NeuralPi"
+ #define JucePlugin_Desc                   "Doppelganger"
 #endif
 #ifndef  JucePlugin_Manufacturer
  #define JucePlugin_Manufacturer           "GuitarML"
 #endif
 #ifndef  JucePlugin_ManufacturerWebsite
- #define JucePlugin_ManufacturerWebsite    "https://guitarml.com"
+ #define JucePlugin_ManufacturerWebsite    "www.GuitarML.com"
 #endif
 #ifndef  JucePlugin_ManufacturerEmail
- #define JucePlugin_ManufacturerEmail      "smartguitarml@gmail.com"
+ #define JucePlugin_ManufacturerEmail      ""
 #endif
 #ifndef  JucePlugin_ManufacturerCode
  #define JucePlugin_ManufacturerCode       0x4d616e75
@@ -101,19 +101,19 @@
  #define JucePlugin_AUSubType              JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_AUExportPrefix
- #define JucePlugin_AUExportPrefix         NeuralPiAU
+ #define JucePlugin_AUExportPrefix         DoppelgangerAU
 #endif
 #ifndef  JucePlugin_AUExportPrefixQuoted
- #define JucePlugin_AUExportPrefixQuoted   "NeuralPiAU"
+ #define JucePlugin_AUExportPrefixQuoted   "DoppelgangerAU"
 #endif
 #ifndef  JucePlugin_AUManufacturerCode
  #define JucePlugin_AUManufacturerCode     JucePlugin_ManufacturerCode
 #endif
 #ifndef  JucePlugin_CFBundleIdentifier
- #define JucePlugin_CFBundleIdentifier     com.GuitarML.NeuralPi
+ #define JucePlugin_CFBundleIdentifier     com.GuitarML.Doppelganger
 #endif
 #ifndef  JucePlugin_AAXIdentifier
- #define JucePlugin_AAXIdentifier          com.GuitarML.NeuralPi
+ #define JucePlugin_AAXIdentifier          com.GuitarML.Doppelganger
 #endif
 #ifndef  JucePlugin_AAXManufacturerCode
  #define JucePlugin_AAXManufacturerCode    JucePlugin_ManufacturerCode
@@ -137,7 +137,7 @@
  #define JucePlugin_IAASubType             JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_IAAName
- #define JucePlugin_IAAName                "GuitarML: NeuralPi"
+ #define JucePlugin_IAAName                "GuitarML: Doppelganger"
 #endif
 #ifndef  JucePlugin_VSTNumMidiInputs
  #define JucePlugin_VSTNumMidiInputs       16
@@ -152,10 +152,10 @@
  #define JucePlugin_ARATransformationFlags  0
 #endif
 #ifndef  JucePlugin_ARAFactoryID
- #define JucePlugin_ARAFactoryID           "com.GuitarML.NeuralPi.factory"
+ #define JucePlugin_ARAFactoryID           "com.GuitarML.Doppelganger.factory"
 #endif
 #ifndef  JucePlugin_ARADocumentArchiveID
- #define JucePlugin_ARADocumentArchiveID   "com.GuitarML.NeuralPi.aradocumentarchive.1.3.0"
+ #define JucePlugin_ARADocumentArchiveID   "com.GuitarML.Doppelganger.aradocumentarchive.1.3.0"
 #endif
 #ifndef  JucePlugin_ARACompatibleArchiveIDs
  #define JucePlugin_ARACompatibleArchiveIDs  ""

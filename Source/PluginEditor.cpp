@@ -602,7 +602,7 @@ void NeuralPiAudioProcessorEditor::paint (Graphics& g)
     juce::Font backTextFont("Swiss721 BlkEx BT", logo.getHeight(), juce::Font::plain);
     g.setColour(juce::Colours::steelblue.withBrightness(0.95));
     g.setFont(backTextFont);
-    g.drawFittedText("PiPedal", logo, juce::Justification::centred, 1);
+    //g.drawFittedText("PiPedal", logo, juce::Justification::centred, 1);
 
     //Value Display Boxes----------------
     g.setColour(juce::Colours::black);

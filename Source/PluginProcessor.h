@@ -8,7 +8,7 @@
   ==============================================================================
 */
 
-#include <nlohmann/json.hpp>
+#include <../modules/json/single_include/nlohmann/json.hpp>
 #include "RTNeuralLSTM.h"
 #include "AmpOSCReceiver.h"
 #include "Eq4Band.h"
