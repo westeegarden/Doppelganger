@@ -596,12 +596,10 @@ void NeuralPiAudioProcessorEditor::paint (Graphics& g)
     g.setColour(juce::Colours::steelblue.withBrightness(0.7));
     g.fillRoundedRectangle(bounds.getX(), bounds.getY(), bounds.getWidth(), bounds.getHeight(), 10);
 
-    //PiPedal logo
-    juce::Rectangle<int> logo;
-    logo.setBounds(bounds.getX() + (bounds.getWidth() / 2) - 40, bounds.getY() + (bounds.getHeight() / 4) + 50, 80, 30);
-    juce::Font backTextFont("Swiss721 BlkEx BT", logo.getHeight(), juce::Font::plain);
-    g.setColour(juce::Colours::steelblue.withBrightness(0.95));
-    g.setFont(backTextFont);
+    //Doppelganger logo
+    g.setOpacity(1.0);
+    g.drawImageWithin(logo, bounds.getX()+90, bounds.getY()+40, 200, 165, juce::RectanglePlacement::centred, false);
+
     //g.drawFittedText("PiPedal", logo, juce::Justification::centred, 1);
 
     //Value Display Boxes----------------
@@ -674,8 +672,8 @@ void NeuralPiAudioProcessorEditor::resized()
     //=====================
 
     //Gain and Volume
-    ampGainKnob.setBounds(knobsBounds1.getX() + (knobsBounds1.getWidth() / 7), knobsBounds1.getY(), (knobsBounds1.getWidth() / 7) * 2, knobsBounds2.getHeight());
-    ampMasterKnob.setBounds(knobsBounds1.getX() + ((knobsBounds1.getWidth() / 7) * 4), knobsBounds1.getY(), (knobsBounds1.getWidth() / 7) * 2, knobsBounds2.getHeight());
+    ampGainKnob.setBounds(knobsBounds2.getX() + 20, knobsBounds1.getY(), knobsBounds2.getWidth() / 3, knobsBounds2.getHeight());
+    ampMasterKnob.setBounds(knobsBounds2.getX() + ((knobsBounds1.getWidth() / 3) * 2) - 20, knobsBounds1.getY(), knobsBounds2.getWidth() / 3, knobsBounds2.getHeight());
 
     //EQ
     ampBassKnob.setBounds(knobsBounds2.getX() + 20, knobsBounds2.getY(), knobsBounds2.getWidth() / 3, knobsBounds2.getHeight());
@@ -691,8 +689,8 @@ void NeuralPiAudioProcessorEditor::resized()
     //======================
 
     //Gain and Volume
-    GainLabel.setBounds(ampGainKnob.getX() + 10, knobsBounds1.getY(), 80, 10);
-    LevelLabel.setBounds(ampMasterKnob.getX() + 10, knobsBounds1.getY(), 80, 10);
+    GainLabel.setBounds(ampGainKnob.getX() + 25, knobsBounds1.getY() + 10, 80, 10);
+    LevelLabel.setBounds(ampMasterKnob.getX() + 25, knobsBounds1.getY() + 10, 80, 10);
 
     //EQ
     BassLabel.setBounds(ampBassKnob.getX() + 25, knobsBounds2.getY() + 10, 80, 10);

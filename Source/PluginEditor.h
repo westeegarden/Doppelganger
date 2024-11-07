@@ -69,6 +69,9 @@ public:
     // For the FileChooser to load json models and IR files
     std::unique_ptr<FileChooser> myChooser;
 
+    //Doppelganger logo image
+    Image logo = ImageCache::getFromMemory(BinaryData::doppelgangerLogo1_PNG, BinaryData::doppelgangerLogo1_PNGSize);
+
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.

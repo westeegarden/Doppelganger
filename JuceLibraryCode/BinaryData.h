@@ -14,6 +14,12 @@ namespace BinaryData
     extern const char*   BluesJR_FullD_json;
     const int            BluesJR_FullD_jsonSize = 40529;
 
+    extern const char*   doppelgangerLogo1_PNG;
+    const int            doppelgangerLogo1_PNGSize = 101236;
+
+    extern const char*   doppelgangerLogo2_PNG;
+    const int            doppelgangerLogo2_PNGSize = 83040;
+
     extern const char*   HT40_Overdrive_json;
     const int            HT40_Overdrive_jsonSize = 42499;
 
@@ -24,7 +30,7 @@ namespace BinaryData
     const int            TS9_FullD_jsonSize = 40673;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 5;
+    const int namedResourceListSize = 7;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];

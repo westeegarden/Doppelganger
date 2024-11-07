@@ -10,6 +10,10 @@
       <FILE id="wKou0l" name="BluesJr.json" compile="0" resource="1" file="models/BluesJr.json"/>
       <FILE id="hQ0vq1" name="BluesJR_FullD.json" compile="0" resource="1"
             file="models/BluesJR_FullD.json"/>
+      <FILE id="tdqZwr" name="doppelgangerLogo1.PNG" compile="0" resource="1"
+            file="resources/doppelgangerLogo1.PNG"/>
+      <FILE id="h5ZVbF" name="doppelgangerLogo2.PNG" compile="0" resource="1"
+            file="resources/doppelgangerLogo2.PNG"/>
       <FILE id="YURBrY" name="HT40_Overdrive.json" compile="0" resource="1"
             file="models/HT40_Overdrive.json"/>
       <FILE id="ZNutt3" name="TS9.json" compile="0" resource="1" file="models/TS9.json"/>
