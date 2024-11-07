@@ -615,7 +615,7 @@ void NeuralPiAudioProcessorEditor::paint (Graphics& g)
     g.drawImageWithin(logo, bounds.getX()+70, bounds.getY()+60, 240, 145, juce::RectanglePlacement::centred, false);
 
     //Visual Knob bounds
-    juce::Rectangle<float> knobsBounds1(bounds.getX() + 10, bounds.getY() + (bounds.getHeight() / 4) - 10, bounds.getWidth() - 10, (bounds.getHeight() / 4) - 5);
+    juce::Rectangle<float> knobsBounds1(bounds.getX() + 10, bounds.getY() + (bounds.getHeight() / 4) - 10, bounds.getWidth() - 20, (bounds.getHeight() / 4) - 5);
     juce::Rectangle<float> knobsBounds2(bounds.getX() + 10, knobsBounds1.getY() + knobsBounds1.getHeight() + 5, bounds.getWidth() - 20, (bounds.getHeight() / 4) - 5);
     juce::Rectangle<float> knobsBounds3(bounds.getX() + 10, knobsBounds2.getY() + knobsBounds2.getHeight() + 5, bounds.getWidth() - 20, (bounds.getHeight() / 4) - 5);
 
